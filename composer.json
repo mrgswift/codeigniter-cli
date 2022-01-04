@@ -1,5 +1,5 @@
 {
-    "name": "kenjis/codeigniter-cli",
+    "name": "mrgswift/codeigniter-cli",
     "description": "A command-line tool for CodeIgniter 3.0",
     "keywords": [
         "cli",
@@ -10,14 +10,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Kenji Suzuki",
-            "homepage": "https://github.com/kenjis"
+            "name": "Matthew Guillot",
+            "homepage": "https://github.com/mrgswift"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "aura/cli-kernel": "~2.0",
-        "monolog/monolog": "~1.0"
+        "monolog/monolog": "2.3.5",
+        "psr/log": "1.1.4"
     },
     "autoload": {
         "psr-4": {
@@ -40,6 +41,6 @@
         }
     },
     "require-dev": {
-        "satooshi/php-coveralls": "0.6.*"
+        "php-coveralls/php-coveralls": "1.1.*"
     }
 }
